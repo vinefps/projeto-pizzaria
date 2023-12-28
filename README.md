@@ -3,7 +3,7 @@ Descrição
 Este projeto é uma aplicação simples que simula uma pizzaria online. Ele permite que os usuários visualizem diferentes tipos de pizzas, vejam detalhes sobre cada uma delas e adicionem quantidades desejadas ao carrinho de compras.
 
 # Funcionalidades Principais
-Listagem de Pizzas: As pizzas são carregadas dinamicamente a partir de um arquivo JSON (assumindo a existência de uma variável pizzaJson).
+Listagem de Pizzas: As pizzas são carregadas dinamicamente a partir de um arquivo JSON.
 Modal de Detalhes: Ao clicar em uma pizza ou no botão "Mais" (representado como .more), um modal é exibido com detalhes da pizza selecionada.
 Controle de Quantidade: Dentro do modal, os usuários podem ajustar a quantidade desejada de pizzas utilizando botões "+" e "-".
 Adição ao Carrinho: Após definir a quantidade desejada, os usuários podem adicionar a pizza ao carrinho. Se a pizza já estiver no carrinho, a quantidade é atualizada; caso contrário, uma nova entrada é adicionada ao carrinho.
