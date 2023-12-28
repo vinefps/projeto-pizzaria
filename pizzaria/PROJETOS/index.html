@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Pizzaria</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="pizzas.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <a href="www.google.com"><img src="./images/pizzaria.png"/></a>
+            </div>
+            <nav class="menu-itens">
+                <ul>
+                    <li><a href="">CARDÁPIO</a></li>
+                    <li><a href="">PROMOÇÃO</a></li>
+                    <li><a href="">LOJAS</a></li>
+                </ul>
+            </nav>
+            <div class="cart"><a href=""><img src="./images/cart.png"/></a></div>
+        </div>  
+    </header>
+    <section>
+        <div class="container">
+            <div class="all-pizzas">
+                <div class="each-pizza">
+                    <div class="pizza-img"><img src=""></div>
+                    <div class="more">+</div>
+                    <div class="pizza-infos">
+                        <div class="pizza-name"></div>
+                        <div class="pizza-price"></div>
+                        <div class="pizza-desc"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside>
+        <div class="modal-area hidden">
+            <div class="modal">
+                <div class="each-pizza-modal">
+                    <img src="./images/Xicon.png" class="close-modal"/>
+                    <div class="pizza-img-modal"><img src=""></div>
+                    <div class="control-qt">
+                        <div class="qt-mais">+</div>
+                        <div class="qt-item"></div>
+                        <div class="qt-menos">-</div>
+                    </div>
+                    <div class="more-modal">+</div>
+                    <div class="pizza-infos-modal">
+                        <div class="pizza-name-modal"></div>
+                        <div class="pizza-price-modal"></div>
+                        <div class="pizza-desc-modal"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+</body>
+</html>
